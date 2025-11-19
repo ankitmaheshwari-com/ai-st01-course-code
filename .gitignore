@@ -1,0 +1,10 @@
+/venv
+.venv
+venv
+
+
+# Ignore PNG files
+*.png
+
+# Ignore virtual environment folder
+venv/
