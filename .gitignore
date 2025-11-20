@@ -8,3 +8,4 @@ venv
 
 # Ignore virtual environment folder
 venv/
+.DS_Store
