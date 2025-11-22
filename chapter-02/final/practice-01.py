@@ -16,6 +16,8 @@ st.success("Operation completed successfully!")
 st.warning("This is a warning message.")
 st.error("error message.")
 st.info("some general information.")
+st.toast("message sent!")
+
 
 # Sidebar
 st.sidebar.title("Sidebar Section")
@@ -25,6 +27,13 @@ st.sidebar.write("This is inside the sidebar.")
 col1, col2= st.columns(2)
 col1.write("Column 1")
 col2.write("Column 2")
+
+# container
+with st.container():
+    st.header("Container Demo")
+    st.write("Everything you see here is part of the same container.")
+    st.success("This success message is also inside the container.")
+
 
 
 # Expander
