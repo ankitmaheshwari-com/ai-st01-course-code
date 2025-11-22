@@ -7,7 +7,9 @@ st.subheader("Using Titles, Headers, and Subheaders")
 
 
 # Markdown
-st.markdown("**Bold text**, *italic text*, and `inline code`.")
+st.markdown("**Bold text**")
+st.markdown("*italic*")
+st.markdown("`inline code`")
 
 
 
@@ -16,8 +18,10 @@ st.success("Operation completed successfully!")
 st.warning("This is a warning message.")
 st.error("error message.")
 st.info("some general information.")
-st.toast("message sent!")
 
+
+if st.button("send mssg"):
+    st.toast("mssg sent!!!")
 
 # Sidebar
 st.sidebar.title("Sidebar Section")
