@@ -1,6 +1,8 @@
 import streamlit as st
 
-# practice 1
+st.title("Widgets and Forms")
+
+# Widgets - 1
 # -----------------------------------
 
 
@@ -10,15 +12,12 @@ import streamlit as st
 
 
 
-# practice 2 | checkBox, selectbox
+# Widgets - 2 | checkBox, selectbox
 # ----------------------------------------
 
 # st.title("Selection & Slider ")
-# Selection
 
 
-
-# Slider
 
 
 
@@ -30,5 +29,5 @@ import streamlit as st
 
 # Registration form
 # -----------------------------------
-st.title("Registration Form")
+# st.title("Registration Form")
 

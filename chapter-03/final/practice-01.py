@@ -1,8 +1,8 @@
 import streamlit as st
 
-# practice 1
+# practice 1 | widgets
 # -----------------------------------
-st.title("Practice -01")
+st.title("Widgets")
 name = st.text_input("Your name")
 age = st.number_input("Your age", min_value=0, max_value=120, value=25)
 if st.button("Submit"):
@@ -13,8 +13,7 @@ if st.button("Submit"):
 
 
 
-
-# practice 2 | checkBox, selectbox
+# practice 2 | checkBox, selectbox| widgets
 # ----------------------------------------
 
 st.title("Selection & Slider ")
