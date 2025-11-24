@@ -73,3 +73,8 @@ if submit:
             file_name="README.md",
             mime="text/markdown"
         )
+
+
+
+st.subheader("Your README.md (Raw markdown)")
+st.code(md, language="markdown")
