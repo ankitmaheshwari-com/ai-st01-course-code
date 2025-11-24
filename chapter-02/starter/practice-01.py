@@ -1,18 +1,12 @@
-
-import streamlit as sts
+import streamlit as st
 
 # st.write examples
-
 
 
 # Markdown
 
 
-
-
 # Status messages
-
-
 
 
 # -----------------------------
@@ -24,10 +18,6 @@ import streamlit as sts
 # Example: st.sidebar.title("Settings")
 
 
-
-
-
-
 # st.columns() splits the page into multiple vertical sections.
 # Each section can contain independent elements.
 # Example: col1, col2 = st.columns(2)
@@ -35,12 +25,6 @@ import streamlit as sts
 # Practice creating 2 or 3 columns and adding content inside.
 
 
-
-
-
-
-
-
 # -----------------------------
 # LAYOUT: CONTAINER
 # -----------------------------
@@ -49,19 +33,12 @@ import streamlit as sts
 # This helps organize larger parts of the page.
 
 
-
-
-
-
 # -----------------------------
 # LAYOUT: CONTAINER
 # -----------------------------
 # st.container() creates a logical section on the page.
 # All elements inside the 'with' block are grouped together visually.
 # This helps organize larger parts of the page.
-
-
-
 
 
 # -----------------------------
@@ -69,8 +46,3 @@ import streamlit as sts
 # -----------------------------
 # st.tabs() lets you switch between sections using tab-like navigation.
 # Each tab behaves like its own mini-page.
-
-
-
-
-
