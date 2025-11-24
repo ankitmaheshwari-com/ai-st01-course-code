@@ -30,12 +30,13 @@ with left:
 
 
 # ---- Markdown Creation ----
+
+md = ""
 if submit:
     # Process skills
     skills_list = [skill.strip() for skill in skills_text.split(",") if skill.strip()]
 
     # ---- Build README content ----
-    md = ""
     if name:
         md += f"### Hi, I'm {name} 👋\n\n"
     else:
