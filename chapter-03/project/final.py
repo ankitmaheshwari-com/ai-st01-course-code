@@ -21,15 +21,13 @@ with left:
             placeholder="Python, JavaScript, Streamlit"
         )
 
-        # include_social = st.checkbox("Include Social Links?")
-        linkedin = ""
-        twitter = ""
-
-        # if include_social:
+        # include_social 
         linkedin = st.text_input("LinkedIn URL (optional)")
         twitter = st.text_input("Twitter URL (optional)")
 
         submit = st.form_submit_button("Generate Profile")
+
+
 
 # ---- Markdown Creation ----
 if submit:
@@ -55,7 +53,7 @@ if submit:
     if github_user:
         md += f"## 🔗 GitHub\n[@{github_user}](https://github.com/{github_user})\n\n"
 
-    # if include_social:
+    # include_social:
     md += "## 🌍 Social Links\n"
     if linkedin:
         md += f"- [LinkedIn]({linkedin})\n"
