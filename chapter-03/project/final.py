@@ -38,24 +38,24 @@ if submit:
 
     # ---- Build README content ----
     if name:
-        md += f"### Hi, I'm {name} 👋\n\n"
+        md += f"## Hi, I'm {name} 👋\n\n"
     else:
-        md += f"### Hi 👋\n\n"
+        md += f"## Hi 👋\n\n"
 
     if bio:
-        md += f"## 👨‍💻 About Me\n{bio}\n\n"
+        md += f"### 👨‍💻 About Me\n{bio}\n\n"
 
     if skills_list:
-        md += "## 🛠 Skills\n"
+        md += "### 🛠 Skills\n"
         for skill in skills_list:
             md += f"- {skill}\n"
         md += "\n"
 
     if github_user:
-        md += f"## 🔗 GitHub\n[@{github_user}](https://github.com/{github_user})\n\n"
+        md += f"### 🔗 GitHub\n[@{github_user}](https://github.com/{github_user})\n\n"
 
     # include_social:
-    md += "## 🌍 Social Links\n"
+    md += "### 🌍 Social Links\n"
     if linkedin:
         md += f"- [LinkedIn]({linkedin})\n"
     if twitter:
