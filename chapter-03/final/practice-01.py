@@ -43,3 +43,5 @@ if submitted:
     st.write(f"Email: {email}")
     st.write(f"Age: {age}")
     st.write(f"Plan: {plan}")
+else:
+    st.write("waiting to be clicked")
