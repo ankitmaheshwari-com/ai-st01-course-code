@@ -1,22 +1,45 @@
 import streamlit as st
 
-#  # Initialize count in Session State (only runs once)
-
-
-# # Button increases the count
-
-
-# # Display the count
+#  # Initialize count in Session State
 
 
 
 
-# practice 2
-# counter APP
-
-# st.title("counter app")
+# Button increases the count
 
 
 
-# practice 3
-# callback demo
+
+# Display the count
+
+
+
+
+# 2 ways to access session state
+# 1. dot notation
+
+
+
+
+# 2. bracket notation
+
+
+
+
+# Common Dictionary Methods
+# returns None if key doesn't exist
+
+
+
+# Return default value if key doesn't exist
+
+
+
+# clearing all session state 
+
+
+
+# clearing one by one
+
+
+

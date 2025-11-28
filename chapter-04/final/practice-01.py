@@ -1,6 +1,6 @@
 import streamlit as st
 
-#  # Initialize count in Session State (only runs once)
+#  # Initialize count in Session State
 if "count" not in st.session_state:
     st.session_state.count = 0
 
@@ -13,46 +13,34 @@ st.write(f"Count: {st.session_state.count}")
 
 
 
-# practice 2
-# counter APP
+# 2 ways to access session state
 
-st.title("counter app")
-
-if 'count' not in st.session_state:
-    st.session_state.count = 0
+# 1. dot notation
+st.session_state.count = 5
+value = st.session_state.count
 
 
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    if st.button("- subtract"):
-        st.session_state.count -=1
-
-with col2:
-    if st.button("reset"):
-        st.session_state.count = 0
-
-with col3:
-    if st.button("+add"):
-        st.session_state.count +=1
-    
-st.header(f"counter : {st.session_state.count}")
+# 2. bracket notation
+st.session_state["count"] = 5
+value -= st.session_state["count"]
 
 
-# practice 3
-# callback
+
+# Common Dictionary Methods
+# returns None if key doesn't exist
+value = st.session_state.get("count")
+
+# Return default value if key doesn't exist
+value = st.session_state.get("count", 0)
 
 
-st.title("callback demo")
+# clearing all session state 
+if st.button("clear everything"):
+    st.session_state.clear()
+    st.rerun()    
 
-def calculate_change():
-    st.session_state.total = st.session_state.price * st.session_state.quantity
+# clearing one by one
+for key in list(st.session_state.keys()):
+    del st.session_state[key]
 
 
-if "total" not in st.session_state:
-    st.session_state.total = 0
-
-st.number_input("price", min_value=0.0, value=0.0, key = "price", on_change=calculate_change)
-st.number_input("quantity", min_value=0, value = 0, key = "quantity", on_change=calculate_change)
-
-st.success(f"total: {st.session_state.total:.2f}")
