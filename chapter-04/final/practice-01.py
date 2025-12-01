@@ -22,7 +22,7 @@ value = st.session_state.count
 
 # 2. bracket notation
 st.session_state["count"] = 5
-value -= st.session_state["count"]
+value = st.session_state["count"]
 
 
 
