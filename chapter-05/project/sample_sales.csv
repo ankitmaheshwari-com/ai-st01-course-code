@@ -4,3 +4,48 @@ Order ID,Product,Category,Quantity,Unit Price,Total Amount,Customer Rating
 103,Monitor,Display,1,8500,8500,4
 104,Laptop,Computers,3,45000,135000,5
 105,Headphones,Audio,2,3500,7000,3
+106,Webcam,Accessories,1,2500,2500,4
+107,USB Hub,Accessories,3,800,2400,5
+108,Graphics Tablet,Accessories,1,5500,5500,4
+109,Smartphone,Mobile,1,32000,32000,5
+110,Tablet,Mobile,2,18000,36000,4
+111,Bluetooth Speaker,Audio,1,4200,4200,4
+112,Soundbar,Audio,1,11000,11000,5
+113,Printer,Office,1,15000,15000,4
+114,Scanner,Office,1,9000,9000,3
+115,Projector,Office,1,28000,28000,5
+116,External HDD,Storage,2,4500,9000,4
+117,SSD Drive,Storage,1,7000,7000,5
+118,Memory Card,Storage,3,1200,3600,4
+119,Router,Networking,1,2500,2500,4
+120,Repeater,Networking,2,1500,3000,3
+121,Switch,Networking,1,3500,3500,4
+122,Desktop PC,Computers,1,52000,52000,5
+123,Gaming Laptop,Computers,1,78000,78000,5
+124,Keyboard (Mechanical),Accessories,1,3500,3500,5
+125,Ergonomic Mouse,Accessories,1,2200,2200,4
+126,4K Monitor,Display,1,24500,24500,5
+127,HD Monitor,Display,2,9000,18000,4
+128,VR Headset,Display,1,31000,31000,5
+129,Smartwatch,Mobile,1,12000,12000,4
+130,Wireless Charger,Mobile,2,1500,3000,4
+131,Gaming Headset,Audio,1,6500,6500,5
+132,Studio Microphone,Audio,1,13500,13500,4
+133,Office Chair,Furniture,1,8500,8500,5
+134,Standing Desk,Furniture,1,18500,18500,4
+135,LED Lamp,Furniture,2,1200,2400,4
+136,Pen Tablet,Accessories,1,4800,4800,4
+137,Laptop Stand,Accessories,2,1800,3600,5
+138,HD Webcam,Accessories,1,3500,3500,4
+139,Portable Monitor,Display,1,14500,14500,5
+140,Mini Projector,Display,1,9000,9000,4
+141,NAS Storage,Storage,1,42000,42000,5
+142,USB-C Cable,Accessories,3,500,1500,4
+143,Power Bank,Mobile,1,2200,2200,4
+144,Smart TV,Display,1,42000,42000,5
+145,Mechanical Keyboard,Accessories,1,6200,6200,5
+146,All-in-One PC,Computers,1,68000,68000,4
+147,Gaming Mouse,Accessories,2,2500,5000,5
+148,Laser Printer,Office,1,19000,19000,4
+149,Office Phone,Office,2,3200,6400,3
+150,Bluetooth Earbuds,Audio,1,2800,2800,4
