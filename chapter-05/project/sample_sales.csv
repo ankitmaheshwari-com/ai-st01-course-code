@@ -42,7 +42,7 @@ Order ID,Product,Category,Quantity,Unit Price,Total Amount,Customer Rating
 141,NAS Storage,Storage,1,42000,42000,5
 142,USB-C Cable,Accessories,3,500,1500,4
 143,Power Bank,Mobile,1,2200,2200,4
-144,Smart TV,Display,1,42000,42000,5
+144,Smart TV,Display,1,42000,,5
 145,Mechanical Keyboard,Accessories,1,6200,6200,5
 146,All-in-One PC,Computers,1,68000,68000,4
 147,Gaming Mouse,Accessories,2,2500,5000,5
